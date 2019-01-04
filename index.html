@@ -402,7 +402,7 @@
 	<!-- Contact Me 부분 -->
 	<section class="site-section bg-light" id="section-contact">
 		<div class="container">
-			
+			<div class="row">
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
 						<h2>
@@ -410,9 +410,8 @@
 						</h2>
 					</div>
 				</div>
-				
-				<div id="disqus_thread"></div>
-				<!-- <div class="col-md-7 mb-5 mb-md-0">
+
+				<div class="col-md-7 mb-5 mb-md-0">
 					<form action="" class="site-form">
 						<h3 class="mb-5">Get In Touch</h3>
 						<div class="form-group">
@@ -450,23 +449,31 @@
 							Francisco, CA <br> 4th Floor8 Lower <br> San Francisco
 							street, M1 50F</li>
 					</ul>
-				</div> -->
+				</div>
+			</div>
 		</div>
 	</section>
 
-	<script>
-		(function() { 
-			var d = document, s = d.createElement('script');
-			s.src = 'https://saram-1.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<noscript>
-		Please enable JavaScript to view the 
-		<a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-	</noscript>
-	<script id="dsq-count-scr" src="//saram-1.disqus.com/count.js" async></script>
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div id="disqus_thread"></div>
+				<script>
+					(function() { 
+						var d = document, s = d.createElement('script');
+						s.src = 'https://saram-1.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+					})();
+				</script>
+				<noscript>
+					Please enable JavaScript to view the 
+					<a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+				</noscript>
+				<script id="dsq-count-scr" src="//saram-1.disqus.com/count.js" async></script>
+			</div>
+		</div>
+	</section>
 
 	<!-- footer - 저작권(링크) 부분 수정 하지 말자 -->
 	<footer class="site-footer">
