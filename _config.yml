@@ -1,1 +1,5 @@
 theme: jekyll-theme-hacker
+
+# Disqus
+disqus: True
+disqus_shortname: saram-1
