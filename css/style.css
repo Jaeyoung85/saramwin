@@ -604,3 +604,9 @@ a {
   .block-47 .block-47-quote .block-47-quote-author {
     font-size: 14px;
     color: #666666; }
+    
+.techIcon{
+	margin:15px;
+	max-width:18%;
+	max-height:25px;
+}
