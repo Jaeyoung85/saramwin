@@ -606,7 +606,14 @@ a {
     color: #666666; }
     
 .techIcon{
-	margin:15px;
+	margin:10px;
 	max-width:18%;
 	max-height:25px;
+}
+.projectTitle{
+	color:#57d131 !important;	
+	font-weight: bold !important;
+}
+.section-portfolio{
+	margin-bottom:20px !important;
 }
