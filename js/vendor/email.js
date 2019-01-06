@@ -3,7 +3,6 @@
  */
 
 function sendEmailCheck() {
-
 	var from_nameStr = document.emailForm.from_name.value;
 	var from_messageStr = document.emailForm.from_message.value;
 	var reply_emailStr = document.emailForm.reply_email.value;
@@ -16,7 +15,7 @@ function sendEmailCheck() {
 			from_message: from_messageStr
 	};
 	if(result.length != 0){
-		/*emailjs.send(service_id,template_id,template_params);*/
+		emailjs.send(service_id,template_id,template_params);
 		document.getElementById('emailModal').style.display='block';
 		var frm = document.getElementsByName('emailForm')[0];
 		frm.reset();
