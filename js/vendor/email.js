@@ -15,14 +15,16 @@ function sendEmailCheck() {
 		reply_email: reply_emailStr,
 		from_message: from_messageStr
 	};
-	if(from_nameStr != null){
+	console.log(document.getElementById("html_element"));
+	console.log(grecaptcha.getResponse());
+	/*if(from_nameStr != null){
 		if(from_messageStr != null){
 			if(reply_emailStr != null){
-				/*emailjs.send(service_id,template_id,template_params);*/
+				emailjs.send(service_id,template_id,template_params);
 				document.getElementById('emailModal').style.display='block';
 				var frm = document.getElementsByName('emailForm')[0];
 				frm.reset();
 			}
 		}
-	}
+	}*/
 }
