@@ -850,3 +850,7 @@ a:hover, a:focus, a:active {
 	float: right;
 	margin-bottom: 30px;
 }
+
+.formSize{
+	width:100% !important;
+}

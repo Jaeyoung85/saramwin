@@ -8,7 +8,7 @@ function sendEmailCheck() {
 	var reply_emailStr = document.emailForm.reply_email.value;
 	var result = grecaptcha.getResponse();
 	var service_id = 'gmail';
-	var template_id = 'template_vmaqxyqf';
+	var template_id = 'template_ei9jO66s';
 	var template_params = {
 			from_name: from_nameStr,
 			reply_email: reply_emailStr,
